@@ -9,11 +9,7 @@ h3,#History,#Styles,#GALLERY, #Jibbing, #Freeriding, #Freestyle{
 
 body {
     background-color: #B5B5B5;
-    width:max;
-    margin-left: auto;
-	margin-right: auto
-	border-radius  ;
-	box-shadow ;
+    
     
 }
 
@@ -105,7 +101,11 @@ a:active {
     color: #FF0000;
 }
 
-
+	width:500px;
+    margin-left: auto;
+	margin-right: auto
+	border-radius  ;
+	box-shadow ;
 ================================
 
 o	Center your page using: 
