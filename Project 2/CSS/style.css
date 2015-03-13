@@ -1,0 +1,98 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Instructions 
+This assignment will require that you have completed all the activities so far, as you will incorporate their objectives 
+into a ongoing four-part project. Make sure to fix any errors from the previous project and continue to add to it for this assignment. 
+Build Your Site 
+You will be graded on your ability to demonstrate a proficiency in each of these concepts and you will see these reflected in the grading rubric provided. Below are the concepts broken down into the requirements for the project: 
+
+o	Add foreground and background colors using: 
+•	RGB, Hex, or HSL values (no Color Keywords)
+
+o	Add opacity using: 
+•	Opacity, RGBA, or HSLA
+
+•	Styling text 
+o	The following CSS properties should be used: 
+•	font-family
+•	font-size
+•	font-weight
+•	font-style
+•	line-height
+•	text-align or text-indent
+•	text-shadow
+
+o	Add a web based font using: 
+•	<link /> or @font-face
+
+o	Style your links using the following CSS pseudo-classes: 
+•	a:link
+•	a:visited
+•	a:hover
+•	a:active
+
+o	Change the default list styling using: 
+•	list-style-type
+•	Box model 
+
+o	The following CSS properties should be used: 
+•	width
+•	height
+•	padding
+•	border
+•	margin
+
+o	Center your page using: 
+•	width
+•	auto margins
+o	Add rounded corners using: 
+•	border-radius
+o	Add box shadow using: 
+•	box-shadow
+
+o	Change the display of elements from their default using: 
+•	display
+•	Comments 
+
+o	Add comments to both your HTML and CSS to help with organization. For example, HTML 
+comments where divs close ("end content") and CSS comments to 
+split the stylesheet into different sections ("main styles", "navigation", "layout", etc.).
+
+•	Validation 
+
+o	Make sure both your HTML and CSS are valid using the W3C Validation Services.
+
+Note: Use CSS shorthand wherever possible to make your code more efficient. See the resources for a great guide to shorthand properties. 
+
+Check Your Page 
+
+Open the web page in your browser to make sure that your page looks the way you expected and that both your HTML and CSS validates. If there are any problems go back and check for errors in your code. 
+
+Video Walk-through 
+
+Watch the video(s) in the Resources for a walk-through of this assignment. 
+Submission Requirements 
+•	Upload your files to GitHub.com: Sync your repository using the “gh-pages” branch.
+•	Submit through FSO: Create a properly named folder (see below). Place your assignment into this folder. Also include URLs  to your GitHub.com repository & live web page in a text file (.txt). THEN compress (zip) the folder and submit it.
+When you have completed this assignment: 
+•	Make sure your folders and files are named correctly and synced with GitHub.com
+•	Create a new folder named lastname-firstname-project2
+•	Place all your folders and files from this assignments into this folder
+•	Include a text file of your GitHub.com URLs (see the Web Standards, Tools, Introduction to HTML activity for details)
+•	Zip your folder (right-click/select “Compress”)
+•	Submit your zipped folder through FSO
+Note: You are required to upload your work to GitHub.com and submit it to receive credit for this assignment 
+*/
