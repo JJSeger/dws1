@@ -12,14 +12,14 @@ margin-right:auto;
     format('SEASRN__.ttf');
 }
 
-h1,h3,#History,#Styles,#GALLERY{
-    font-family:SEASRN__.ttf, Arial Black,serif;
-    font-size:
-    font-weight:
-    font-style:
-    line-height:
-    text-indent:
-    text-shadow:
+h1,h3,{
+    font-family: SeasideResortNF, Arial Black,serif;
+    font-size: large
+    font-weight: bold
+    font-style: italic
+    line-height:10 px
+    text-indent: 50px
+    text-shadow:2px 2px #7F7F7F
 }
 
 
