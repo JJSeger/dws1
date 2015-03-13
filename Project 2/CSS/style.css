@@ -1,10 +1,26 @@
+h1,h2{
+width: 300px;
+margin-top:10px;
+margin-left:auto;
+margin-bottom:10px;
+margin-right:auto;
+
+}
+@font-face {
+    font-family: SeasideResortNF;
+    src: url(/Fonts/SEASRN__.ttf);
+    src: local('SeasideResortNF'), local(SeasideResortNF'),
+    url(.ttf) format('regular');
+}
+
+h1,h2,h3,#History,#Styles,#GALLERY{
+font-family:Regular, Arial Black,serif;
+}
+
+blockquote,h2{
 
 
-
-
-
-
-
+}
 
 
 
