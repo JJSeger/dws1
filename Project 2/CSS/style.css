@@ -7,15 +7,22 @@ margin-right:auto;
 
 }
 @font-face {
-    font-family: SeasideResortNF;
-    src: url(/Fonts/SEASRN__.ttf);
-    src: local('SeasideResortNF'), local(SeasideResortNF'),
-    url(.ttf) format('regular');
+    font-family:'SEASRN__.ttf';
+    src: url('/dws1/Project 2/fonts/SEASRN__ .ttf')
+    format('SEASRN__.ttf');
 }
 
-h1,h2,h3,#History,#Styles,#GALLERY{
-font-family:Regular, Arial Black,serif;
+h1,h3,#History,#Styles,#GALLERY{
+    font-family:SEASRN__.ttf, Arial Black,serif;
+    font-size:
+    font-weight:
+    font-style:
+    line-height:
+    text-indent:
+    text-shadow:
 }
+
+
 
 blockquote,h2{
 
