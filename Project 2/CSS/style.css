@@ -1,4 +1,31 @@
-h1,h2{
+
+
+
+h3,#History,#Styles,#GALLERY, #Jibbing, #Freeriding, #Freestyle{
+    color: rgb(255,0,0);
+    text-shadow: 2px 2px rgb(0,0,0);
+
+}
+
+body {
+    background-color: #B5B5B5;
+    width:max;
+    margin-left: auto;
+	margin-right: auto
+	border-radius  ;
+	box-shadow ;
+    
+}
+
+h1 {
+    color: #010302;
+}
+
+h2 {
+	
+    color: rgb(0,0,84);
+}
+h1,h2,{
 text-shadow: 2px 2px #ff0000;
 
 width: 300px;
@@ -15,25 +42,6 @@ font-family:'Brush Script MT Italic, Ariel, Serif';
     text-indent: 50px
     text-shadow:2px 2px #7F7F7F
 }
-
-
-h3,#History,#Styles,#GALLERY, #Jibbing, #Freeriding, #Freestyle{
-    color: rgb(255,0,0);
-}
-
-body {
-    background-color: #B5B5B5;
-}
-
-h1 {
-    color: #010302;
-}
-
-h2 {
-	
-    color: rgb(0,0,84);
-}
-
 
 #image1{
     opacity: 0.4;
@@ -77,11 +85,37 @@ h2 {
 }
 
 
+/* unvisited link */
+a:link {
+    color: #0000A3;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF8B00;
+}
+
+/* selected link */
+a:active {
+    color: #FF0000;
+}
 
 
+================================
 
-
-
+o	Center your page using: 
+•	width
+•	auto margins
+o	Add rounded corners using: 
+•	border-radius
+o	Add box shadow using: 
+•	box-shadow
+===============================
 
 
 /*Instructions 
@@ -104,7 +138,7 @@ o	The following CSS properties should be used:
 •	font-style
 •	line-height
 •	text-align or text-indent
-•	text-shadow
+•	
 
 o	Add a web based font using: 
 •	<link /> or @font-face
