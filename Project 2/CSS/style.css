@@ -6,14 +6,10 @@ margin-bottom:10px;
 margin-right:auto;
 
 }
-@font-face {
-    font-family:'SEASRN__.ttf';
-    src: url('/dws1/Project 2/fonts/SEASRN__ .ttf')
-    format('SEASRN__.ttf');
-}
+
 
 h1,h3,{
-    font-family: SeasideResortNF, Arial Black,serif;
+    font-family:'Brush Script MT Italic, Ariel, Serif';
     font-size: large
     font-weight: bold
     font-style: italic
@@ -22,12 +18,19 @@ h1,h3,{
     text-shadow:2px 2px #7F7F7F
 }
 
-
-
-blockquote,h2{
-
-
+body {
+    background-color: #B5B5B5;
 }
+
+h1 {
+    color: #010302;
+}
+
+h2 {
+    color: rgb(0,0,84);
+}
+
+
 
 
 
