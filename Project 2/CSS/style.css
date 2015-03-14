@@ -1,43 +1,65 @@
+h1{
+	width:300px;
+	margin-left: auto;
+    margin-right: auto;
+    
+ }
+h2{
+	text-align:center;
+	
+
+}
+
+blockquote{
+	@font-face 
+    font-family: 'Rock+Salt::latin';
+    src: url(http://fonts.googleapis.com/css?family=Rock+Salt);
 
 
+
+}
 
 h3,#History,#Styles,#GALLERY, #Jibbing, #Freeriding, #Freestyle{
     color: rgb(255,0,0);
     text-shadow: 2px 2px rgb(0,0,0);
-
+	font-style: oblique;
+	text-align: left;
 }
 
 body {
-    background-color: #B5B5B5;
+    background-color: #A78BE8;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    border: 2px solid;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #888888;
     
-    
+    font-family: "Times New Roman", Times, serif;
+	font-size:100%;
+	font-weight:normal;
+	
+	line-height:20px;
+	
+	
+	
+	
 }
+
 
 h1 {
     color: #010302;
+    text-shadow: 2px 2px #FF0000;
+    font-style: oblique;
 }
 
 h2 {
 	
     color: rgb(0,0,84);
+    text-shadow: 2px 2px #FF0000;
+    font-style: oblique;
 }
-h1,h2,{
-text-shadow: 2px 2px #ff0000;
 
-width: 300px;
-margin-top:10px;
-margin-left:auto;
-margin-bottom:10px;
-margin-right:auto;
-
-font-family:'Brush Script MT Italic, Ariel, Serif';
-    font-size: large
-    font-weight: bold
-    font-style: italic
-    line-height:10 px
-    text-indent: 50px
-    text-shadow:2px 2px #7F7F7F
-}
 
 #image1{
     opacity: 0.4;
@@ -47,9 +69,8 @@ font-family:'Brush Script MT Italic, Ariel, Serif';
 #image1:hover {
     opacity: 1.0;
     filter: alpha(opacity=100);
-
+	
 }
-
 #image2{
     opacity: 0.4;
     filter: alpha(opacity=40); 
@@ -101,21 +122,9 @@ a:active {
     color: #FF0000;
 }
 
-	width:500px;
-    margin-left: auto;
-	margin-right: auto
-	border-radius  ;
-	box-shadow ;
-================================
 
-o	Center your page using: 
-•	width
-•	auto margins
-o	Add rounded corners using: 
-•	border-radius
-o	Add box shadow using: 
-•	box-shadow
-===============================
+
+
 
 
 /*Instructions 
@@ -124,30 +133,16 @@ into a ongoing four-part project. Make sure to fix any errors from the previous 
 Build Your Site 
 You will be graded on your ability to demonstrate a proficiency in each of these concepts and you will see these reflected in the grading rubric provided. Below are the concepts broken down into the requirements for the project: 
 
-o	Add foreground and background colors using: 
-•	RGB, Hex, or HSL values (no Color Keywords)
 
-o	Add opacity using: 
-•	Opacity, RGBA, or HSLA
 
-•	Styling text 
-o	The following CSS properties should be used: 
-•	font-family
-•	font-size
-•	font-weight
-•	font-style
-•	line-height
-•	text-align or text-indent
-•	
+
+
+	
 
 o	Add a web based font using: 
 •	<link /> or @font-face
 
-o	Style your links using the following CSS pseudo-classes: 
-•	a:link
-•	a:visited
-•	a:hover
-•	a:active
+
 
 o	Change the default list styling using: 
 •	list-style-type
@@ -160,13 +155,7 @@ o	The following CSS properties should be used:
 •	border
 •	margin
 
-o	Center your page using: 
-•	width
-•	auto margins
-o	Add rounded corners using: 
-•	border-radius
-o	Add box shadow using: 
-•	box-shadow
+
 
 o	Change the display of elements from their default using: 
 •	display
