@@ -1,25 +1,28 @@
 h1{
+	/*centering text*/
 	width:300px;
 	margin-left: auto;
     margin-right: auto;
     
  }
 h2{
+	/*centering text*/
 	text-align:center;
 	
 
 }
 
 blockquote{
-	@font-face 
-    font-family: 'Rock+Salt::latin';
-    src: url(http://fonts.googleapis.com/css?family=Rock+Salt);
-
-
-
+		/*changing text on the blockquote with external link*/
+	font-family: 'Rock Salt', cursive , Times;
+	font-weight: bold;
+	font-size:75%;
+	text-align: center;
 }
 
-h3,#History,#Styles,#GALLERY, #Jibbing, #Freeriding, #Freestyle{
+h3,#History,#Styles,#GALLERY, #Jibbing, #Freeriding, #Freestyle{			
+
+/*adding color-shadow-style and aligning text*/
     color: rgb(255,0,0);
     text-shadow: 2px 2px rgb(0,0,0);
 	font-style: oblique;
@@ -27,34 +30,62 @@ h3,#History,#Styles,#GALLERY, #Jibbing, #Freeriding, #Freestyle{
 }
 
 body {
+
+	/*changing the background color*/
     background-color: #A78BE8;
+    
+    /*centering page and adding round corners and shadow*/
+    
     width:90%;
     margin-left:auto;
     margin-right:auto;
     border: 2px solid;
     border-radius: 15px;
-    box-shadow: 10px 10px 5px #888888;
-    
+    box-shadow: 10px 10px 5px #2C2DCF;
+    			
+    			
+    			
+    			/*changing text*/
+    			
     font-family: "Times New Roman", Times, serif;
 	font-size:100%;
 	font-weight:normal;
-	
+		
+		/*changing the line height */
 	line-height:20px;
+	}
+	
+	/*changing the ol list style*/
+ol {
+	list-style-type: circle;
+	}
+	
+	/*changing the ul list style*/
+ul {
+	list-style-type: square;
+	display: inline-table;
+	border: 2px solid navy;
+	margin: 10px;
+	box-shadow: 2px 2px 5px #2C2DCF;
+	
+	}
+
 	
 	
 	
 	
-}
+	
 
 
-h1 {
+h1 {   
+	/*changing text*/
     color: #010302;
     text-shadow: 2px 2px #FF0000;
     font-style: oblique;
 }
 
 h2 {
-	
+	/*changing text*/
     color: rgb(0,0,84);
     text-shadow: 2px 2px #FF0000;
     font-style: oblique;
@@ -62,40 +93,110 @@ h2 {
 
 
 #image1{
+
+	/*changing the opacity of the image*/
     opacity: 0.4;
     filter: alpha(opacity=40); 
-
-}
-#image1:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100);
 	
+	
+	   	/*changing box model for image*/
+    width: 500px;
+    height: 375px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+	box-shadow: 10px 10px 5px #2C2DCF;
+
+
+
+
+
 }
+
+
+/*changing the hover behavior for image 1*/
+
+#image1:hover {
+	/*changing the hover behavior*/
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+
+}
+
+
+
 #image2{
+	/*changing the opacity of the image*/
     opacity: 0.4;
     filter: alpha(opacity=40); 
     
+    	/*changing box model for image*/
+    width: 500px;
+    height: 350px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+    box-shadow: 10px 10px 5px #2C2DCF;
+    
+    
 }
+/*changing the hover behavior for image 2*/
 #image2:hover {
+	/*changing the hover behavior*/
     opacity: 1.0;
     filter: alpha(opacity=100);
 
 }
+
+
+
+
+
 #image3{
+	/*changing the opacity of the image*/
     opacity: 0.4;
     filter: alpha(opacity=40); 
     
+    	/*changing box model for image*/
+    width: 500px;
+    height: 350px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+	box-shadow: 10px 10px 5px #2C2DCF;
+
 }
+
+/*changing the hover behavior for image 3*/
 #image3:hover {
+	/*changing the hover behavior*/
     opacity: 1.0;
     filter: alpha(opacity=100);
 
 }
+
+
+
+
 #image4{
+	/*changing the opacity of the image*/
     opacity: 0.4;
     filter: alpha(opacity=40); 
+    
+    	/*changing box model for image*/
+    width: 500px;
+    height: 550px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+	box-shadow: 10px 10px 5px #2C2DCF;
+
+
 }
+
+/*changing the hover behavior for image 4*/
 #image4:hover {
+	/*changing the hover behavior*/
     opacity: 1.0;
     filter: alpha(opacity=100);
 
@@ -139,31 +240,18 @@ You will be graded on your ability to demonstrate a proficiency in each of these
 
 	
 
-o	Add a web based font using: 
-•	<link /> or @font-face
 
 
 
-o	Change the default list styling using: 
-•	list-style-type
-•	Box model 
-
-o	The following CSS properties should be used: 
-•	width
-•	height
-•	padding
-•	border
-•	margin
 
 
 
-o	Change the display of elements from their default using: 
-•	display
-•	Comments 
 
-o	Add comments to both your HTML and CSS to help with organization. For example, HTML 
-comments where divs close ("end content") and CSS comments to 
-split the stylesheet into different sections ("main styles", "navigation", "layout", etc.).
+
+
+ 
+
+
 
 •	Validation 
 
