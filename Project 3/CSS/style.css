@@ -3,13 +3,12 @@ h1{
 	width:15%;
 	margin-left: auto;
     margin-right: auto;
-    
+ 
  }
 h2{
 								/*centering text*/
 	text-align:center;
 	
-
 }
 
 blockquote{
@@ -18,15 +17,13 @@ blockquote{
 	font-weight: bold;
 	font-size:.75em;
 	text-align: center;
-	
 	width:55%;
     height:30.5%;
     padding:1%;
     border:25px solid navy;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 10px 10px 5px #2C2DCF;
-	
+	box-shadow: 10px 10px 5px #2C2DCF;
 	
 	
 }
@@ -41,20 +38,15 @@ h3,#History,#Styles,#GALLERY, #Jibbing, #Freeriding, #Freestyle{
 }
 
 body {
-	background-color: #b0c4de;
-	
-   								/*centering page and adding round corners and shadow*/
-   
-    width:90%;
+	   								/*centering page and adding round corners and shadow*/
+	width:90%;
     margin-left:auto;
     margin-right:auto;
     border: 2px solid;
     border-radius: 15px;
     box-shadow: 10px 10px 5px #2C2DCF;
     			
-    			
-    			
-    							/*changing text*/
+    								/*changing text*/
     			
     font-family: "Times New Roman", Times, serif;
 	font-size:1.000em;
@@ -62,12 +54,13 @@ body {
 		
 								/*changing the line height */
 	line-height:20px;
-	}
+}
 	
 								/*changing the ol list style*/
 ol {
 	list-style-type: circle;
-	}
+	
+}
 	
 								/*changing the ul list style*/
 ul {
@@ -77,7 +70,7 @@ ul {
 	margin: 1%;
 	box-shadow: 2px 2px 5px #2C2DCF;
 	
-	}
+}
 
 	
 h1 {   
@@ -97,12 +90,10 @@ h2 {
 
 #image1{
 
-								/*changing the opacity of the image*/
-    opacity: 0.4;
-    filter: alpha(opacity=40); 
+	 opacity: 1.0;
+    					/*changing the opacity of the image*/
+    
 	
-	
-	   					
 }
 
 
@@ -110,25 +101,23 @@ h2 {
 
 #image1:hover {
 								/*changing the hover behavior*/
-    opacity: 1.0;
-    filter: alpha(opacity=100);
-
+   
+ opacity: 0.4;
+ 
 }
 
 
 
 #image2{
 								/*changing the opacity of the image*/
-    opacity: 0.4;
-    filter: alpha(opacity=40); 
+   	 opacity: 1.0;
     
     
 }
 								/*changing the hover behavior for image 2*/
 #image2:hover {
 								/*changing the hover behavior*/
-    opacity: 1.0;
-    filter: alpha(opacity=100);
+     opacity: 0.4;
 
 }
 
@@ -138,17 +127,14 @@ h2 {
 
 #image3{
 								/*changing the opacity of the image*/
-    opacity: 0.4;
-    filter: alpha(opacity=40); 
+  	 opacity: 1.0; 
     
 }
 
 								/*changing the hover behavior for image 3*/
 #image3:hover {
 								/*changing the hover behavior*/
-    opacity: 1.0;
-    filter: alpha(opacity=100);
-
+     opacity: 0.4;
 }
 
 
@@ -156,16 +142,14 @@ h2 {
 
 #image4{
 								/*changing the opacity of the image*/
-    opacity: 0.4;
-    filter: alpha(opacity=40); 
+    	 opacity: 1.0;
     
 }
 
 								/*changing the hover behavior for image 4*/
 #image4:hover {
 								/*changing the hover behavior*/
-    opacity: 1.0;
-    filter: alpha(opacity=100);
+    opacity: 0.4;
 
 }
 
@@ -196,12 +180,14 @@ a:active {
         
         
 #StylesPara{					/*column Styles*/
-     
 	width:28%;  
 	float:left;
 	padding:1%; 
-	margin:1% 
+	margin:1% ;
 	clear:right;
+
+
+
 }
 
  #JibbingPara{					/*column Jibbing*/
@@ -209,7 +195,7 @@ a:active {
 	width:28%;  
 	float:left;
 	padding:1%; 
-	margin:1% 
+	margin:1%; 
 	clear:right;
 }
 
@@ -218,7 +204,7 @@ a:active {
 	width:28%;  
 	float:left;
 	padding:1%; 
-	margin:1% 
+	margin:1% ;
 	clear:right;
 }
 
@@ -241,57 +227,37 @@ p{
 
 }
 
+body{
+	background: linear-gradient(135deg,  rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%); /* W3C */
+	}
+
+
+
+
+#image1{
+
+	background:url("../images/snowflake.png"); 
+	background-repeat: no-repeat;
+	background-position: right center;
+
+
+
+
+}       
         
-        
-        
-        
-    
-        
-        
-        /*
-        
-        Add a repeating background image using these CSS properties (use the Resources to download a repeating pattern image):
-            background-image
-            background-repeat
-            background-position
-        
-        */
-        
+     
         
         
         
         
                 
-        /*
-          Add a non-repeating background image using these CSS properties (use the Resources to download an icon image):
-            background-image
-            background-repeat
-            background-position
-         */
-        
-       
-
-			/*
+      
 		
- Add a CSS gradient using this CSS property (use the CSS gradient generator in the Resources):
-            background
-
-
-			*/
 
 
 
 
-	/*
-		Comments
-        Add comments to both your HTML and CSS to help with organization. For example, HTML comments where divs close ("end content") and CSS 
-        comments to split the stylesheet into different sections ("main styles", "navigation", "layout", etc.).
 
-    Validation
-        Make sure both your HTML and CSS are valid using the W3C Validation Services.
-
-
-			*/
 
 
 
