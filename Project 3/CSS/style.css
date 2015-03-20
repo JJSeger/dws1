@@ -1,6 +1,6 @@
 h1{
 								/*centering text*/
-	width:300px;
+	width:15%;
 	margin-left: auto;
     margin-right: auto;
     
@@ -18,6 +18,17 @@ blockquote{
 	font-weight: bold;
 	font-size:75%;
 	text-align: center;
+	
+	width:600px;
+    height:75px;
+    padding:1%;
+    border:25px solid navy;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 5px #2C2DCF;
+	
+	
+	
 }
 
 h3,#History,#Styles,#GALLERY, #Jibbing, #Freeriding, #Freestyle{			
@@ -65,7 +76,7 @@ ul {
 	list-style-type: square;
 	display: inline-table;
 	border: 2px solid navy;
-	margin: 10px;
+	margin: 3.1250%;
 	box-shadow: 2px 2px 5px #2C2DCF;
 	
 	}
@@ -93,18 +104,7 @@ h2 {
     filter: alpha(opacity=40); 
 	
 	
-	   							/*changing box model for image*/
-    width: 500px;
-    height: 375px;
-    padding: 25px;
-    border: 25px solid navy;
-    margin: 25px;
-	box-shadow: 10px 10px 5px #2C2DCF;
-
-
-
-
-
+	   					
 }
 
 
@@ -123,14 +123,6 @@ h2 {
 								/*changing the opacity of the image*/
     opacity: 0.4;
     filter: alpha(opacity=40); 
-    
-    							/*changing box model for image*/
-    width: 500px;
-    height: 350px;
-    padding: 25px;
-    border: 25px solid navy;
-    margin: 25px;
-    box-shadow: 10px 10px 5px #2C2DCF;
     
     
 }
@@ -151,14 +143,6 @@ h2 {
     opacity: 0.4;
     filter: alpha(opacity=40); 
     
-    							/*changing box model for image*/
-    width: 500px;
-    height: 350px;
-    padding: 25px;
-    border: 25px solid navy;
-    margin: 25px;
-	box-shadow: 10px 10px 5px #2C2DCF;
-
 }
 
 								/*changing the hover behavior for image 3*/
@@ -177,15 +161,6 @@ h2 {
     opacity: 0.4;
     filter: alpha(opacity=40); 
     
-    							/*changing box model for image*/
-    width: 500px;
-    height: 550px;
-    padding: 25px;
-    border: 25px solid navy;
-    margin: 25px;
-	box-shadow: 10px 10px 5px #2C2DCF;
-
-
 }
 
 								/*changing the hover behavior for image 4*/
@@ -218,37 +193,33 @@ a:active {
 }
 
 
- /*Create a two or three column layout with floats and <div> elements, using the following CSS properties: 
-        width    
-        float 
-        padding 
-        margin 
-        clear */
+ /*Created three column layout 
+ with floats and <div> elements*/
         
         
-#StylesPara{
+#StylesPara{					/*column Styles*/
      
 	width:25%;  
 	float:left;
-	padding:10px; 
+	padding:1%; 
 	margin:1% 
 	clear:right;
 }
 
- #JibbingPara{
+ #JibbingPara{					/*column Jibbing*/
      
 	width:25%;  
 	float:left;
-	padding:10px; 
+	padding:1%; 
 	margin:1% 
 	clear:right;
 }
 
-#FreePara{
+#FreePara{						/*column Freeriding*/
      
 	width:25%;  
 	float:left;
-	padding:10px; 
+	padding:1%; 
 	margin:1% 
 	clear:right;
 }
@@ -262,11 +233,7 @@ a:active {
 
 }
         
-        
-        
-        
-        
-        /* Convert to Liquid Layout
+/* Convert to Liquid Layout
         After creating the multicolumn layout, convert the fixed width layout to a liquid layout. The following properties should be converted 
         from pixels values to percentages:
             width
