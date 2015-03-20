@@ -16,11 +16,11 @@ blockquote{
 								/*changing text on the blockquote with external link*/
 	font-family: 'Rock Salt', cursive , Times;
 	font-weight: bold;
-	font-size:75%;
+	font-size:.75em;
 	text-align: center;
 	
-	width:600px;
-    height:75px;
+	width:55%;
+    height:30.5%;
     padding:1%;
     border:25px solid navy;
     margin-left: auto;
@@ -41,12 +41,10 @@ h3,#History,#Styles,#GALLERY, #Jibbing, #Freeriding, #Freestyle{
 }
 
 body {
-
-								/*changing the background color*/
-    background-color: #A78BE8;
-    
+	background-color: #b0c4de;
+	
    								/*centering page and adding round corners and shadow*/
-    
+   
     width:90%;
     margin-left:auto;
     margin-right:auto;
@@ -59,7 +57,7 @@ body {
     							/*changing text*/
     			
     font-family: "Times New Roman", Times, serif;
-	font-size:100%;
+	font-size:1.000em;
 	font-weight:normal;
 		
 								/*changing the line height */
@@ -76,7 +74,7 @@ ul {
 	list-style-type: square;
 	display: inline-table;
 	border: 2px solid navy;
-	margin: 3.1250%;
+	margin: 1%;
 	box-shadow: 2px 2px 5px #2C2DCF;
 	
 	}
@@ -199,7 +197,7 @@ a:active {
         
 #StylesPara{					/*column Styles*/
      
-	width:25%;  
+	width:28%;  
 	float:left;
 	padding:1%; 
 	margin:1% 
@@ -208,7 +206,7 @@ a:active {
 
  #JibbingPara{					/*column Jibbing*/
      
-	width:25%;  
+	width:28%;  
 	float:left;
 	padding:1%; 
 	margin:1% 
@@ -217,7 +215,7 @@ a:active {
 
 #FreePara{						/*column Freeriding*/
      
-	width:25%;  
+	width:28%;  
 	float:left;
 	padding:1%; 
 	margin:1% 
@@ -232,22 +230,22 @@ a:active {
 	clear:left;
 
 }
+
+
+p{
+
+	background-image:url("../images/knit.png");
+	background-repeat:repeat;
+	background-position: 100% 0;
+
+
+}
+
         
-/* Convert to Liquid Layout
-        After creating the multicolumn layout, convert the fixed width layout to a liquid layout. The following properties should be converted 
-        from pixels values to percentages:
-            width
-            margin */
         
         
         
-        
-        
-        /*
-             Convert any font-size properties from pixel values to ems. If you need help converting, use the pixel-to-em converter in the Resources.
-    Backgrounds
-        
-        */
+    
         
         
         /*
