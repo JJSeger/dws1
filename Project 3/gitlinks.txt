@@ -1,5 +1,5 @@
  
-http://jjseger.github.io/dws1/project2.html
+http://jjseger.github.io/dws1/project3.html
 
 
-https://github.com/JJSeger/dws1
+https://github.com/JJSeger/dws1/project3
