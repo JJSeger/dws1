@@ -1,0 +1,285 @@
+h1{
+								/*centering text*/
+	width:15%;
+	margin-left: auto;
+    margin-right: auto;
+ 
+ }
+h2{
+								/*centering text*/
+	text-align:center;
+	
+}
+
+blockquote{
+								/*changing text on the blockquote with external link*/
+	font-family: 'Rock Salt', cursive , Times;
+	font-weight: bold;
+	font-size:.75em;
+	text-align: center;
+	width:55%;
+    height:30.5%;
+    padding:1%;
+    border:25px solid navy;
+    margin-left: auto;
+    margin-right: auto;
+	box-shadow: 10px 10px 5px #2C2DCF;
+	
+	
+}
+
+h3,#History,#Styles,#GALLERY, #Jibbing, #Freeriding, #Freestyle{			
+
+								/*adding color-shadow-style and aligning text*/
+    color: rgb(255,0,0);
+    text-shadow: 2px 2px rgb(0,0,0);
+	font-style: oblique;
+	text-align: left;
+}
+
+body {
+	   								/*centering page and adding round corners and shadow*/
+	width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    border: 2px solid;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #2C2DCF;
+    			
+    								/*changing text*/
+    			
+    font-family: "Times New Roman", Times, serif;
+	font-size:1.000em;
+	font-weight:normal;
+		
+								/*changing the line height */
+	line-height:20px;
+}
+	
+								/*changing the ol list style*/
+ol {
+	list-style-type: circle;
+	
+}
+	
+								/*changing the ul list style*/
+ul {
+	list-style-type: square;
+	display: inline-table;
+	border: 2px solid navy;
+	margin: 1%;
+	box-shadow: 2px 2px 5px #2C2DCF;
+	
+}
+
+	
+h1 {   
+								/*changing text*/
+    color: #010302;
+    text-shadow: 2px 2px #FF0000;
+    font-style: oblique;
+}
+
+h2 {
+								/*changing text*/
+    color: rgb(0,0,84);
+    text-shadow: 2px 2px #FF0000;
+    font-style: oblique;
+}
+
+
+#image1{
+
+	 opacity: 1.0;
+    					/*changing the opacity of the image*/
+    
+	
+}
+
+
+								/*changing the hover behavior for image 1*/
+
+#image1:hover {
+								/*changing the hover behavior*/
+   
+ opacity: 0.4;
+ 
+}
+
+
+
+#image2{
+								/*changing the opacity of the image*/
+   	 opacity: 1.0;
+    
+    
+}
+								/*changing the hover behavior for image 2*/
+#image2:hover {
+								/*changing the hover behavior*/
+     opacity: 0.4;
+
+}
+
+
+
+
+
+#image3{
+								/*changing the opacity of the image*/
+  	 opacity: 1.0; 
+    
+}
+
+								/*changing the hover behavior for image 3*/
+#image3:hover {
+								/*changing the hover behavior*/
+     opacity: 0.4;
+}
+
+
+
+
+#image4{
+								/*changing the opacity of the image*/
+    	 opacity: 1.0;
+    
+}
+
+								/*changing the hover behavior for image 4*/
+#image4:hover {
+								/*changing the hover behavior*/
+    opacity: 0.4;
+
+}
+
+
+								/* unvisited link */
+a:link {
+    color: #0000A3;
+}
+
+								/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+								/* mouse over link */
+a:hover {
+    color: #FF8B00;
+}
+
+								/* selected link */
+a:active {
+    color: #FF0000;
+}
+
+
+ /*Created three column layout 
+ with floats and <div> elements*/
+        
+        
+#StylesPara{					/*column Styles*/
+	width:28%;  
+	float:left;
+	padding:1%; 
+	margin:1% ;
+	clear:right;
+
+
+
+}
+
+ #JibbingPara{					/*column Jibbing*/
+     
+	width:28%;  
+	float:left;
+	padding:1%; 
+	margin:1%; 
+	clear:right;
+}
+
+#FreePara{						/*column Freeriding*/
+     
+	width:28%;  
+	float:left;
+	padding:1%; 
+	margin:1% ;
+	clear:right;
+}
+
+#Freestyle{
+	clear:left;
+
+}
+#FreestylePara{
+	clear:left;
+
+}
+
+
+p{
+
+	background-image:url("../images/knit.png");
+	background-repeat:repeat;
+	background-position: 100% 0;
+
+
+}
+
+body{
+	background: linear-gradient(135deg,  rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%); /* W3C */
+	}
+
+
+
+
+#image1{
+
+	background:url("../images/snowflake.png"); 
+	background-repeat: no-repeat;
+	background-position: right;
+
+
+
+
+}       
+        
+     
+        
+        
+        
+        
+                
+      
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
