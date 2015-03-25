@@ -55,12 +55,7 @@ body {
 								/*changing the line height */
 	line-height:20px;
 	
-								/*floating the body to the left*/
-	width:28%;  
-	float:left;
-	padding:1%; 
-	margin:1% ;
-	clear:right
+
 	
 	
 	
@@ -199,6 +194,9 @@ a:active {
 	padding:1%; 
 	margin:1% ;
 	clear:right;
+
+
+
 
 
 }
