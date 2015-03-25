@@ -54,6 +54,20 @@ body {
 		
 								/*changing the line height */
 	line-height:20px;
+	
+								/*floating the body to the left*/
+	width:28%;  
+	float:left;
+	padding:1%; 
+	margin:1% ;
+	clear:right
+	
+	
+	
+	
+	
+	
+	
 }
 	
 								/*changing the ol list style*/
@@ -184,7 +198,7 @@ a:active {
 	float:left;
 	padding:1%; 
 	margin:1% ;
-	
+	clear:right;
 
 
 }
@@ -195,7 +209,7 @@ a:active {
 	float:left;
 	padding:1%; 
 	margin:1%; 
-	
+	clear:right;
 }
 
 #FreePara{						/*column Freeriding*/
@@ -204,7 +218,7 @@ a:active {
 	float:left;
 	padding:1%; 
 	margin:1% ;
-
+	clear:right;
 }
 
 #Freestyle{
@@ -245,20 +259,7 @@ body{
 }       
         
      
-aside{
 
-	width:28%;  
-	float:top-right;
-	padding:1%; 
-	margin:1% ;
-	
-
-
-
-
-} 
-        
-        
         
                 
       
