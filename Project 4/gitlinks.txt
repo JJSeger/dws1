@@ -1,5 +1,4 @@
  
-http://jjseger.github.io/dws1/project3.html
+http://jjseger.github.io/dws1/Project%204/
 
-
-https://github.com/JJSeger/dws1/project3
+https://github.com/JJSeger/dws1/tree/gh-pages/Project%204
