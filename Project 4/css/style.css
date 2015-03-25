@@ -227,7 +227,7 @@ p{
 	background-image:url("../images/knit.png");
 	background-repeat:repeat;
 	background-position: 100% 0;
-
+ 	
 
 }
 
@@ -244,12 +244,14 @@ body{
 	background-repeat: no-repeat;
 	background-position: right;
 
-
-
-
 }       
         
-     
+nav{
+text-align:center;
+
+
+
+}     
 
         
                 
