@@ -101,8 +101,9 @@ text-align:center;
 
 
 #image1{
-
-	 opacity: 1.0;
+	max-height:2%;
+	width:25%;							/*changing the opacity of the image*/
+	opacity: 1.0; 
     					/*changing the opacity of the image*/
     
 	
@@ -121,8 +122,9 @@ text-align:center;
 
 
 #image2{
-								/*changing the opacity of the image*/
-   	 opacity: 1.0;
+	max-height:2%;
+	width:25%;							/*changing the opacity of the image*/
+	opacity: 1.0; 
     
     
 }
@@ -138,8 +140,9 @@ text-align:center;
 
 
 #image3{
-								/*changing the opacity of the image*/
-  	 opacity: 1.0; 
+	max-height:2%;
+	width:25%;							/*changing the opacity of the image*/
+	opacity: 1.0; 
     
 }
 
@@ -153,8 +156,9 @@ text-align:center;
 
 
 #image4{
-								/*changing the opacity of the image*/
-    	 opacity: 1.0;
+	max-height:2%;
+	width:25%;							/*changing the opacity of the image*/
+	opacity: 1.0; 
     
 }
 
@@ -197,14 +201,9 @@ a:active {
 	padding:1%; 
 	margin:1% ;
 	
-
-
-
-
-
 }
 
- #JibbingPara{					/*column Jibbing*/
+#JibbingPara{					/*column Jibbing*/
      
 	width:28%;  
 	float:left;
@@ -248,39 +247,29 @@ body{
 
 
 
-#image1{
+header{
 
 	background:url("../images/snowflake.png"); 
 	background-repeat: no-repeat;
 	background-position: right;
-
+	margin-right:5%;
 }       
         
 
 
 nav{
-	font-size: 75px;
+	font-size: 50px;
 	text-align:center;
 	width:100%;
 	margin-left: auto;
     margin-right: auto;
-	
-}     
-
-nav a {
-
-	
-	text-decoration: none;
-	font-family: Cambria, serif;
-
 	font-style: normal;
 	font-weight: normal;
-	text-transform: normal;
-	letter-spacing: normal;
+   	text-transform: normal;
+	letter-spacing: normal; 
 	line-height: 1.3em;
-	color: #596365;
-}	
-
+	color: #596365;	
+} 
                 
 table, th, td {
 	border: 1px solid black;
@@ -288,7 +277,7 @@ table, th, td {
 } 
 
 table {
-	width: 50%;
+	width: 45%;
 	text-align:center;
 	font-size:75%;
 }
@@ -328,5 +317,14 @@ fieldset{
 
 form{
 	text-align:center;
+
+}
+
+
+aside{
+	width:45%;
+	text-align: center;
+	float:right;
+	display:inline;
 
 }
