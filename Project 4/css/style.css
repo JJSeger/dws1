@@ -320,31 +320,13 @@ tr:hover {
     opacity: 0.7;
 
 }
+fieldset{
+	text-align:center;
+	width:25%;
 
+}
 
+form{
+	text-align:center;
 
-Style your table using the following CSS properties: 
-	
-	
-	
-	
-	
-	
-o	 or border-collapse
-	o	:hover
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

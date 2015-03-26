@@ -398,25 +398,33 @@
 	</aside>
 
 						<!--body closer-->
-	 <form action="action_page.php">
-		First name:<br>
-		<input type="text" name="firstname"><br>
-		Last name:<br>
-		<input type="text" name="lastname"><br>
-		<br>
-		<input type="submit" value="Submit">
-	</form> 
 	
-	<form>
-		<input type="radio" name="sex" value="male" checked>Male<br>
+	
+	
+	<fieldset>
+		<legend>Contact Details</legend>
+		<form>
+			<label for = "First Name"> First Name</label><br>
 		
-		<input type="radio" name="sex" value="female">Female
-	</form> 
-	
+			<input type="text" name="First Name" required><br>
+		
+			<label for = "Last Name"> Last Name</label><br>
+		
+			<input type="text" name="lastname" required><br>
+			<br>
+		
+			<input type="radio" name="sex" value="male" checked>Male
+		
+			<input type="radio" name="sex" value="female">Female<br>
+			<br>
+			<input type="submit" value="Submit"><br>
+		</form> 
+	</fieldset>
 	
 	<select>
 		<option value = "Ski Resorts">Ski Resorts</option>
 		<option value = "Snowboarding Destinations">Snowboarding Destinations</option>
+		<option value = "Post Snowboarding Pics">Post Snowboarding Pics</option>
 	</select>
 	
 	
@@ -458,66 +466,69 @@
 
 
 /*
+    HTML5 layout
+        Add the following HTML5 layout elements:
+        
+            <aside>
+       
+    Incorporate web accessibility techniques by adding the following attribute to each table heading:
+       
+        scope
+    
+    Style your table using the following CSS properties:
+    
+        width
+        padding
+        text-transform or letter-spacing
+        font-size
+        border
+        text-align
+        background-color
+        border-spacing or border-collapse
+        :hover
+    
+    Forms
+        Add a form using the following form controls:
+    
+            Text inputs
+            Labels
+            Textarea
+            Radio buttons or Checkboxes
+            Drop down list
+            Submit button, Image button, or Button
+    
+        Add the following HTML5 form controls:
+            Required
+            Placeholder
+            Email, URL, or Search input
+    
+        Incorporate web accessibility techniques by adding the following element for each form control:
+            label
+    
+        Style your form using the following CSS properties:
+            padding
+            margin
+            font-size
+            color
+            border
+            text-align
+            background-color or background-image
+            :hover
+            :focus
+    
+        Float each form title next to its corresponding form control. The following properties should be utilized:
+            width
+            float
+    
+        Use the following pseudo classes to style form controls:
+            :hover
+            :focus
+    
+    Comments
+        Add comments to both your HTML and CSS to help with organization. For example, HTML comments where divs close ("end content") and CSS comments to split the stylesheet into different sections ("main styles", "navigation", "layout", etc.).
+    Validation
+        Make sure both your HTML and CSS are valid using the W3C Validation Services.
 
 
 
-
-
-
-
-•	Forms 
-
-	•	Drop down list
-	•	Submit button, Image button, or Button
-
-
-
-
-o	Add the following HTML5 form controls: 
-	•	Required
-	•	Placeholder
-	•	Email, URL, or Search input
-
-
-
-
-
-o	Incorporate web accessibility techniques by adding the following element for each form control: 
-	•	label
-
-
-
-
-o	Style your form using the following CSS properties: 
-	•	padding
-	•	margin
-	•	font-size
-	•	color
-	•	border
-	•	text-align
-	•	background-color or background-image
-	•	:hover
-	•	:focus
-
-
-
-
-o	Float each form title next to its corresponding form control. The following properties should be utilized: 
-	•	width
-	•	float
-
-
-
-o	Use the following pseudo classes to style form controls: 
-	•	:hover
-	•	:focus
-	•	Comments 
-
-
-
-o	Add comments to both your HTML and CSS to help with organization. For example, HTML comments where divs close ("end content") and CSS comments to split the stylesheet into different sections ("main styles", "navigation", "layout", etc.).
-	•	Validation 
-
-
-o	Make sure both your HTML and CSS are valid using the W3C Validation Services.
 */
