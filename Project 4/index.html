@@ -24,23 +24,64 @@
 	
 			<h2>
 				<strong>Snowboarding – from the Wikipedia website.</strong>        <!--heading 2-->
-			</h2> 
+			</h2> 	
+			<h3>Contents </h3>
 		
 		</header>
 	
 	
+
+	
+			<nav>
+		
+  				<a href="#History">History</a>
+  	
+  				<a href="#Styles">Styles</a>
+			</nav>
+	
 	</head>
 		
+	<body>
 		
-	<nav>
+																<!--heading 3-->		
+		 
+		<ol>											<!--organized list displaying list with numbers-->
+			<li>
+				<a href="#History">History</a>			<!--list element that is linked to the history id -->
+			</li>		
+			
+			<li>
+				<a href ="#Styles">Some Snowboarding Styles</a>
+			</li>
+		</ol>	
+	
 		
-  			<a href="#History">History</a>
-  	
-  			<a href="#Styles">Styles</a>
-	</nav>
+		<ul>										<!--unorganized list displaying list with bullets-->
+			<li>Jibbing</li>
+		
+			<li>Freeriding</li>
+		
+			<li>Freestyle</li>
+		</ul>
+		
+		
+		
+		<article>
+			<p>Snowboarding is a recreational activity that involves descending a slope that
+			is covered with snow while standing on a snowboard attached to a rider's feet. 			 <!--paragraph-->
+			The snowboard is attached using a special boot set into a mounted binding. 
+		 
+			<p>The development of snowboarding was inspired by skateboarding, sledding, surfing 
+			and skiing. It was developed in the United States in the 1960s and became a Winter 				<!--paragraph-->
+			Olympic Sport in 1998. Its popularity <em>(as measured by equipment sales) </em>peaked in 2007 
+			and has been in a decline since. </p>
+		</article>
 	
 	
-	<table>
+	
+	
+	
+		<table>
   		<tr>
     		<th scope = "col", colspan = "2">Rider Weight - lbs</th>
     		<th scope = "col", colspan = "2">Board Size - Cm</th>
@@ -177,44 +218,6 @@
 		
 	</table> 
 	
-	
-	
-	<body>
-		
-		<h3>Contents </h3>														<!--heading 3-->		
-		 
-		<ol>											<!--organized list displaying list with numbers-->
-			<li>
-				<a href="#History">History</a>			<!--list element that is linked to the history id -->
-			</li>		
-			
-			<li>
-				<a href ="#Styles">Some Snowboarding Styles</a>
-			</li>
-		</ol>	
-	
-		
-		<ul>										<!--unorganized list displaying list with bullets-->
-			<li>Jibbing</li>
-		
-			<li>Freeriding</li>
-		
-			<li>Freestyle</li>
-		</ul>
-		
-		
-		
-		<article>
-			<p>Snowboarding is a recreational activity that involves descending a slope that
-			is covered with snow while standing on a snowboard attached to a rider's feet. 			 <!--paragraph-->
-			The snowboard is attached using a special boot set into a mounted binding. 
-		 
-			<p>The development of snowboarding was inspired by skateboarding, sledding, surfing 
-			and skiing. It was developed in the United States in the 1960s and became a Winter 				<!--paragraph-->
-			Olympic Sport in 1998. Its popularity <em>(as measured by equipment sales) </em>peaked in 2007 
-			and has been in a decline since. </p>
-		</article>
-		
 		
 		<div id = "History">
 			<strong>History</strong>
@@ -395,6 +398,28 @@
 	</aside>
 
 						<!--body closer-->
+	 <form action="action_page.php">
+		First name:<br>
+		<input type="text" name="firstname" value="Mickey"><br>
+		Last name:<br>
+		<input type="text" name="lastname" value="Mouse"><br>
+		<br>
+		<input type="submit" value="Submit">
+	</form> 
+	
+	<form>
+		<input type="radio" name="sex" value="male" checked>Male<br>
+		
+		<input type="radio" name="sex" value="female">Female
+	</form> 
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -429,97 +454,16 @@
 
 
 
-/*Hi Judd,
-
-Hopefully you saw the announcement / email and realized I was unable to answer this while I was away last week and contacted Course Director Jessica Garlic for help. The grade comments from Project 3 covers much of this, but to clarify:
-
-Your tabbing is incorrect. For example, your tabbing:
-
-<ol><!--organized list displaying list with numbers-->
-
-    <li><a href="#History">History</a></li><!--list element that is linked to the history id -->
-
-    <li><a href ="#Styles">Some Snowboarding Styles</a></li>
-
-    </ol>
-
-        <ul><!--unorganized list displaying list with bullets-->
-
-             <li>Jibbing</li>
-
-             <li>Freeriding</li>
-
-             <li>Freestyle</li>
-
-        </ul>
-
-It should be like this (notice the how the list items are tabbed in once more to indicate 
-they are nested inside the list and the lists themselves line up under each other because they are not):
-
-<ol><!--organized list displaying list with numbers-->
-
-    <li><a href="#History">History</a></li><!--list element that is linked to the history id -->
-
-    <li><a href ="#Styles">Some Snowboarding Styles</a></li>
-
-</ol>
-
-<ul><!--unorganized list displaying list with bullets-->
-
-    <li>Jibbing</li>
-
-    <li>Freeriding</li>
-
-    <li>Freestyle</li>
-
-</ul>
-
-You were not using the HTML5 template mentioned in week 1 and because of that you are missing the <head> of your document. 
-So you had tags (headings, blockquote, etc.) outside of the <head> and <body>, which caused the HTML validation error. 
-Add the <head> tags and put the other tags inside the <body> and you will no longer get errors 
-(the image errors were likely caused by this as well but had nothing to do with them).
-
-You had CSS validation errors caused by using an IE hack for opacity, which was never covered in the course reading or viewing 
-assignments and, like most IE hacks, is invalid. 
-
-
-
-<a href="file://localhost/Users/JuddHome/Desktop/dws1/Project%202/images/192145982_a065e0fc95.jpg">
+/*
 
 
 
 
-o	Add the following HTML5 layout elements: 
-	
-	•	Tables 
-
-
-
-
-
-
-•	Incorporate web accessibility techniques by adding the following attribute to each table heading: 
-	o	scope
-
-
-•	Style your table using the following CSS properties: 
-	o	width
-	o	padding
-	o	text-transform or letter-spacing
-	o	font-size
-	o	border
-	o	text-align
-	o	background-color
-	o	border-spacing or border-collapse
-	o	:hover
 
 
 
 •	Forms 
-o	Add a form using the following form controls: 
-	•	Text inputs
-	•	Labels
-	•	Textarea
+o
 	•	Radio buttons or Checkboxes
 	•	Drop down list
 	•	Submit button, Image button, or Button
