@@ -32,7 +32,7 @@ h3,#History,#Styles,#GALLERY, #Jibbing, #Freeriding, #Freestyle{
 
 								/*adding color-shadow-style and aligning text*/
     color: rgb(255,0,0);
-    text-shadow: 2px 2px rgb(0,0,0);
+
 	font-style: oblique;
 	text-align: left;
 	
@@ -101,7 +101,7 @@ text-align:center;
 
 
 #image1{
-	max-height:2%;
+	
 	width:25%;							/*changing the opacity of the image*/
 	opacity: 1.0; 
     					/*changing the opacity of the image*/
@@ -122,7 +122,7 @@ text-align:center;
 
 
 #image2{
-	max-height:2%;
+	
 	width:25%;							/*changing the opacity of the image*/
 	opacity: 1.0; 
     
@@ -140,7 +140,7 @@ text-align:center;
 
 
 #image3{
-	max-height:2%;
+	
 	width:25%;							/*changing the opacity of the image*/
 	opacity: 1.0; 
     
@@ -156,7 +156,7 @@ text-align:center;
 
 
 #image4{
-	max-height:2%;
+	
 	width:25%;							/*changing the opacity of the image*/
 	opacity: 1.0; 
     
@@ -200,25 +200,30 @@ a:active {
 	float:left;
 	padding:1%; 
 	margin:1% ;
-	
+	color:black;
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
 }
 
 #JibbingPara{					/*column Jibbing*/
-     
+	color:black;
 	width:28%;  
 	float:left;
 	padding:1%; 
 	margin:1%; 
-	clear:right;
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
 }
 
 #FreePara{						/*column Freeriding*/
-     
+	color:black;
 	width:28%;  
 	float:left;
 	padding:1%; 
 	margin:1% ;
 	clear:right;
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
 }
 
 #Freestyle{
@@ -227,7 +232,7 @@ a:active {
 }
 #FreestylePara{
 	clear:left;
-
+	color:black;
 }
 
 
@@ -241,8 +246,8 @@ p{
 }
 
 body{
-	background: linear-gradient(135deg,  rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%); /* W3C */
-	}
+	background: linear-gradient(135deg,  rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%); 
+}
 
 
 
@@ -280,6 +285,7 @@ table {
 	width: 45%;
 	text-align:center;
 	font-size:75%;
+	margin-left:2%;
 }
 
 th {
@@ -322,9 +328,24 @@ form{
 
 
 aside{
+	
 	width:45%;
-	text-align: center;
 	float:right;
-	display:inline;
+	display:inline-block;
+	
+}
+#image1,#image2,#image3,#image4{
+	width:80%;
+    height:10%;
+    padding:1%;
+    border:2px solid navy;
+    margin-left: auto;
+    margin-right: auto;
+	box-shadow: 10px 10px 5px #2C2DCF;
+}
+#GALLERY{
+
+	text-align:center;
 
 }
+
