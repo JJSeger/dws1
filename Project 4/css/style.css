@@ -32,7 +32,7 @@ h3,#History,#Styles,#GALLERY, #Jibbing, #Freeriding, #Freestyle{
 
 								/*adding color-shadow-style and aligning text*/
     color: rgb(255,0,0);
-
+	margin-left ;
 	font-style: oblique;
 	text-align: left;
 	
@@ -91,8 +91,7 @@ h2 {
 }
 
 h3{
-
-text-align:center;
+	text-align:center;
 
 }
 
@@ -199,10 +198,11 @@ a:active {
 	width:28%;  
 	float:left;
 	padding:1%; 
-	margin:1% ;
+	margin:auto ;
 	color:black;
 	font-family: "Times New Roman", Times, serif;
 	font-style: normal;
+	display: inline;
 }
 
 #JibbingPara{					/*column Jibbing*/
@@ -213,17 +213,21 @@ a:active {
 	margin:1%; 
 	font-family: "Times New Roman", Times, serif;
 	font-style: normal;
+	display: inline;
+	
 }
 
 #FreePara{						/*column Freeriding*/
 	color:black;
 	width:28%;  
-	float:left;
+	float:right;
 	padding:1%; 
-	margin:1% ;
-	clear:right;
+	margin:1%;
+	 
 	font-family: "Times New Roman", Times, serif;
 	font-style: normal;
+	display: inline;
+	
 }
 
 #Freestyle{
@@ -231,7 +235,7 @@ a:active {
 
 }
 #FreestylePara{
-	clear:left;
+
 	color:black;
 }
 
@@ -318,7 +322,9 @@ tr:hover {
 fieldset{
 	text-align:center;
 	width:25%;
-
+	font-size:normal;
+	color:#fff;
+	text-align:center;
 }
 
 form{
@@ -348,4 +354,13 @@ aside{
 	text-align:center;
 
 }
-
+Style your form using the following CSS properties:
+            padding
+            margin
+            
+            
+            border
+            
+            background-color or background-image
+            :hover
+            :focus
